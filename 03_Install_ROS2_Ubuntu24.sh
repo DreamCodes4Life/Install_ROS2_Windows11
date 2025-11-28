@@ -37,4 +37,7 @@ sudo apt install ros-jazzy-ros-base
 # Set up your environment by sourcing the following file.
 source /opt/ros/jazzy/setup.bash
 
+# if you dont want to run the above line evry time you opn wsl
+echo "source /opt/ros/jazzy/setup.sh" >> ~/.bashrc
+
 
